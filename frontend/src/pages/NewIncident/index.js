@@ -27,7 +27,6 @@ export default function NewIncident(){
                     authorization: ongId
                 }
             });
-            console.log(response);
             history.push('/profile');
         }catch(err){
             alert('Erro ao cadastrar caso, tente novamente')
