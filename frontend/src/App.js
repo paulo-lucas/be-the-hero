@@ -4,8 +4,6 @@ import Routes from './routes'
 
 // JSX (JavaScript XML)
 
-
-
 function App() {
   return (
     <Routes />
